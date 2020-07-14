@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207, 19, 107);
+
+
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header-image{
+    background-image: url(images/header.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+
+}
+
+.header-image h1{
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-size: 120px;
+    margin: 50px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-image h2{
+    color: #ffffdd;
+    font-size: 35px;
+    font-style: italic;
+}
+
+header nav{
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+
+}
+
+
+header nav ul li{
+    display: inline-block;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(207, 19, 107);
+    margin: 0 10px;
+    letter-spacing: 1px;
+
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.section-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207, 19, 107);
+    text-transform: capitalize;
+    font-size: 240%;
+    margin-bottom: 25px;
+
+}
+
+
+.about-section{
+    width: 100vw;
+    height: 100%;
+}
+
+.about-wrapper{
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left-box{
+    width: 45%;
+    /* height: 200px; */
+    text-align: justify;
+    color: rgb(207, 19, 107);
+    line-height: 220%;
+    font-weight: bold;
+    opacity: 0.8;
+
+}
+
+
+.right-box{
+    width: 40%;
+    /* height: 200px; */
+    /* float: right; */
+    margin-left: 6%;
+    /* border: 1px solid purple; */
+}
+
+.top-row, .bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-image-one, .grid-image-two, .grid-image-three, .grid-image-four{
+    width: 50%;
+    height: 240px;
+    /* border: 2px solid blue; */
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-one{
+    background-image: url(images/city.jpeg);
+
+}
+
+.grid-image-two{
+    background-image: url(images/coffee.jpeg);
+}
+
+.grid-image-three{
+    background-image: url(images/coffee2.jpeg);
+}
+
+.grid-image-four{
+    background-image: url(images/donut.jpeg);
+}
+
+.donuts-section{
+    width: 100vw;
+    height: 100%;
+
+}
+
+.image-container{
+    width: 100%;
+}
+
+.row-one, .row-two, .row-three{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+
+.grid-container{
+    /* display: inline-block; */
+    width: 30%;
+    height: 310px;
+    margin: 15px auto;
+    background-image: url(./images/donut.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut1{
+    background-image: url(./images/donut.jpeg);
+
+}
+#donut2{
+    background-image: url(./images/donut2.jpeg);
+}
+#donut3{
+    background-image: url(./images/donut-3.jpeg);
+
+}
+#donut4{
+    background-image: url(./images/donut4.jpeg);
+
+}
+#donut5{
+    background-image: url(./images/donut5.jpeg);
+
+}
+#donut6{
+    background-image: url(./images/donut6.jpeg);
+
+}
+#donut7{
+    background-image: url(./images/donut7.jpeg);
+
+}
+#donut8{
+    background-image: url(./images/donut8.jpeg);
+
+}
+#donut9{
+    background-image: url(./images/donut9.jpeg);
+
+}
+
+.grid-container:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.stores-section{
+    width: 100vw;
+    height: 500px;
+}
+
+.stores-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-div{
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+
+.store-div h4{
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.contact-section{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(207, 19, 107);
+    color:#ffffdd;
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 250%;
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.email{
+    font-size: 140%;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+
+}
+
+.instagram, .facebook, .twitter{
+    margin: 0 7.5px;
+}
